@@ -1,0 +1,49 @@
+---
+layout: default_en
+---
+
+<div class="home">
+    <h2>Where should you start?</h2>
+    <p class="home__welcome-en">It is assumed that you are running CorelDRAW X4 - X7. For lower versions, some macros will work, some won't. This is because macros use new features accessible through VBA, C# or Vb.NET with each new version of CorelDRAW. Be sure to read the 'Terms and Conditions'. And read the 'How to buy' if you want to buy one of the paid macros.</p>
+    <!-- MACROS -->
+    <h2>Best macros</h2>
+    {% assign macros = (site.macros | where: 'layout' , 'macros_en' | where: 'sticky', true ) %}
+    <div class="best-macros">
+        {% for macro in macros %}
+        <div class="best-macro">
+            <h3 class="best-macro__title">
+                <a href="{{ macro.url }}">{{ macro.title }}</a>
+            </h3>
+            <div class="best-macro__content">
+                {{ macro.description | strip_html }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="best-macros__more">
+        <a href="/en/macros/" class="btn  btn__more">All macros</a>
+    </div>
+    <!-- UPDATES -->
+    <h2>Last updates</h2>
+    {% assign updates_count = (site.updates | size) %}
+    {% if updates_count != 0 %}
+    <div class="simple-table  last-updates">
+        {% assign updates = site.updates | sort: 'date' | reverse %}
+        {% for update in updates limit:6 %}
+        <div class="simple-table__row">
+            <div class="simple-table__left-cell  last-updates__left-cell">
+                <h3 class="last-updates__title">
+                    {{ update.title }}
+                </h3>
+            </div>
+            <div class="simple-table__right-cell  last-updates__right-cell">
+                {{ update.date | date: "%b %-d, %Y" }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="last-updates__more">
+        <a href="/en/macros/updates/" class="btn  btn__more">All updates</a>
+    </div>
+    {% endif %}
+</div>

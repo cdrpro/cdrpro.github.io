@@ -1,0 +1,38 @@
+---
+layout: default
+permalink: /blog/
+---
+
+<h1>Записи</h1>
+
+<div class="tags">
+    {% for tag in site.data.tags %}
+    <a class="tag" href="/tags/{{ tag[0] }}/">#{{ tag[1] }}</a>
+    {% endfor %}
+</div>
+
+<div class="posts-list">
+    {% assign posts = (site.categories['blog'] | where: 'lang', 'ru') %}
+    {% assign posts_count = (posts | size) %}
+
+    {% if posts_count != 0 %}
+    {% for post in posts %}
+    <div class="post-teaser">
+        <h2 class="post-teaser__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-teaser__meta">
+            <span class="post-teaser__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-teaser__tags">
+                {% for tag in post.tags %}
+                <a href="/tags/{{tag}}/" class="post-teaser__tag">
+                    #{{ site.data.tags[tag] }}
+                </a>
+                {% endfor %}
+            </span>
+        </p>
+        <p class="post-teaser__content">{{ post.excerpt | strip_html }}</p>
+    </div>
+    {% endfor %}
+    {% else %}
+    <p>There are no posts for this category.</p>
+    {% endif %}
+</div>

@@ -1,0 +1,49 @@
+---
+layout: home
+---
+
+<!-- MACROS -->
+<div class="home__macros">
+    <div class="wrapper">
+        <h2>Макросы</h2>
+        {% assign macros = (site.macros | where: 'layout' , 'macros' | where: 'sticky', true ) %}
+        <div class="best-macros">
+            {% for macro in macros %}
+            <div class="best-macro">
+                <h3 class="best-macro__title">
+                    <a href="{{ macro.url }}">{{ macro.title }}</a>
+                </h3>
+                <div class="best-macro__content">
+                    {{ macro.description | strip_html }}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="best-macros__more">
+            <a href="/macros/" class="btn  btn__more">Все макросы</a>
+        </div>
+    </div>
+</div>
+<!-- BLOG -->
+{% assign posts = (site.posts | | where: 'lang', 'ru') %}
+{% assign posts_count = (posts | size) %}
+{% if posts_count != 0 %}
+<div class="home__new-posts">
+    <div class="wrapper">
+        <h2>Новые записи</h2>
+        <div class="home__post-list">
+        {% for post in posts limit:4 %}
+            <div class="home__post  {% if post.sticky %}home__post-sticky{% endif %}">
+                <h3 class="home__post-title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h3>
+                <p>{{ post.excerpt | strip_html }}</p>
+            </div>
+        {% endfor %}
+        </div>
+        <div class="home__post-list__more">
+            <a href="/blog/" class="btn  btn__more">Все записи</a>
+        </div>
+    </div>
+</div>
+{% endif %}

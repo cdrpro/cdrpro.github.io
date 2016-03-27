@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="macro">
+    <header class="macro__header" style="{% if page.color %}background-color: {{ page.color }};{% endif %}">
+        <div class="macro__header-wrapper">
+            <h1 class="macro__header-title">
+                {{ page.title }}
+                {% if page.version %}
+                    <span>{{ page.version }}</span>
+                {% endif %}
+            </h1>
+            <div class="macro__header-description">
+                {{ page.description }}
+            </div>
+            <div class="macro__header-actions">
+                <a href="{{ site.baseurl }}/macros/download/{{ page.download }}" class="btn" target="_blank">Скачать</a>
+                <a href="http://goo.gl/forms/pm0S1pt67V" class="btn" target="_blank">Купить ({{ page.price }} руб.)</a>
+            </div>
+        </div>
+    </header>
+    <article class="macro__content">
+        {{ content }}
+    </article>
+</div>

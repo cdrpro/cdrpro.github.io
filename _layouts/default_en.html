@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head_en.html %}
+<body class="en">
+    {% include header_en.html %}
+    <div class="page-wrapper">
+        <div class="page-content{% if page.collection %}  {{ page.collection }}-page-content{% endif %}">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </div>
+        {% include footer_en.html %}
+    </div>
+    {% include scripts.html %}
+</body>
+</html>

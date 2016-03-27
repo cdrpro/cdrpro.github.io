@@ -1,0 +1,12 @@
+quickexport:
+  name: "QuickExport"
+  link: "https://github.com/cdrpro/CorelDRAW-QuickExport"
+  description:
+    ru: "Быстрый экспорт выделенного или всех страниц в png или jpg."
+    en: "Easy 2-click export to jpeg or png. Supports export as selections as all pages."
+textreplacer:
+  name: "TextReplacer"
+  link: "https://github.com/cdrpro/CorelDRAW-TextReplacer"
+  description:
+    ru: "Макрос для пакетного поиска и замены текста в CorelDRAW."
+    en: "A macro for batch finding and replacing of text in CorelDRAW."

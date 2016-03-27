@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+{% include head.html %}
+<body class="ru">
+    {% include header.html %}
+    <div class="page-wrapper">
+        <div class="landing-page">
+            {% if page.cover %}
+            <div class="landing-page__cover-bg  {% if page.cover.image == null %}landing-page__cover-no-img{% endif %}" style="background: {{ page.cover.background }}">
+                {% if page.cover.image %}
+                <img class="landing-page__cover" src="{{ page.cover.image | prepend: site.baseurl }}"/>
+                {% endif %}
+            </div>
+            {% endif %}
+            <div class="landing-page__content">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+            </div>
+        </div>
+        {% include footer.html %}
+    </div>
+    {% include scripts.html %}
+</body>
+</html>

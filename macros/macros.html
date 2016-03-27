@@ -1,0 +1,42 @@
+---
+layout: default
+permalink: /macros/
+---
+
+<div class="macros">
+    <!-- MACROS -->
+    <h1>Макросы</h1>
+    <div class="macros-list">
+    {% assign macros = (site.macros | where: "layout" , "macros") %}
+    {% for macro in macros %}
+        <div class="macro-teaser">
+            <h2 class="macro-teaser__title">
+                <a href="{{ macro.url }}">{{ macro.title }}</a>
+            </h2>
+            <p class="macro-teaser__content">
+                {{ macro.description | strip_html }}
+            </p>
+        </div>
+    {% endfor %}
+    </div>
+    <!-- OPEN SOURCE -->
+    <h2>Open Source</h2>
+    <p>Бесплатные макросы с исходным кодом, которые можно модифицировать.
+        <a href="/blog/opensource-macros.html" target="_blank">Подробности</a>.</p>
+    <div class="simple-table  open-source-macros">
+        {% for opensource_macro in site.data.opensource_macros %}
+        {% assign macro = opensource_macro[1] %}
+        <div class="simple-table__row">
+            <div class="simple-table__left-cell  open-source-macros__left-cell">
+                <a href="{{ macro.link }}" class="open-source-macros__title" target="_blank">{{ macro.name }}</a>
+            </div>
+            <div class="simple-table__right-cell  open-source-macros__right-cell">{{ macro.description["ru"] }}</div>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- NOTE -->
+    <p class="macros__more">
+        Остальные макросы будут добавлены позже. <br/>
+        Однако, большую часть из них можно скачать по
+        <a href="/macros/download/macros.zip" target="_blank">этой ссылке</a>.</p>
+</div>

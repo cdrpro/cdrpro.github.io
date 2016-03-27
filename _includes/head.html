@@ -1,0 +1,12 @@
+<head>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,400italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.layout == 'macros' %}{% assign macros_page_title = 'Макрос ' %}{% endif %}
+    <title>{% if page.title %}{{ macros_page_title }}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.layout == 'macros' %}{{ page.description | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description['ru'] }}{% endif %}">
+
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
+    {% include styles.html %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h1>Записи по тегу: {{ site.data.tags[page.tag] }}</h1>
+<div>
+    {% assign posts = (site.tags[page.tag] | where: 'lang', 'ru') %}
+    {% assign posts_count = (posts | size) %}
+
+    {% if posts_count != 0 %}
+    {% for post in posts %}
+    <div class="post-teaser">
+        <h2 class="post-teaser__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="post-teaser__meta">
+            <span class="post-teaser__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
+        <p class="post-teaser__content">{{ post.excerpt | strip_html }}</p>
+    </div>
+    {% endfor %}
+    {% else %}
+        <p>Материалы, для данного тега, не найдены.</p>
+    {% endif %}
+</div>
