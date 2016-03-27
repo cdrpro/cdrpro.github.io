@@ -14,11 +14,6 @@ include: [
 ]
 
 exclude: [
-  gulp,
-  node_modules,
-  src,
-  gulpfile.js,
-  package.json,
   README.md
 ]
 
@@ -32,12 +27,8 @@ collections:
   updates:
     output: false
 
-# Paginate
-paginate: 10
-paginate_path: /posts/page:num/
-
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 
 redcarpet:
