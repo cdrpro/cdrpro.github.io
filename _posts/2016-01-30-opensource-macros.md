@@ -15,7 +15,7 @@ lang: ru
 
 Со своей стороны, я могу предоставить сами исходники (ничего выдающегося, обычный говнокод который работает) написанные на VBA и C#, и помочь тем, кто готов это всё хоть как то систематизировать, написать _quick guides_, а возможно и доработать.
 
-Первая “ласточка” уже доступна на [github.com/cdrpro/QuickExport](https://github.com/cdrpro/CorelDRAW-QuickExport).
+Первая “ласточка” уже доступна на [github.com/cdrpro-macros/quick-export](https://github.com/cdrpro-macros/quick-export).
 
 Найти меня можно в [твиттере](https://twitter.com/cdrpro_ru), а лучше в Слаке (как именно, написано [тут](/forum/)).
 
