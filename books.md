@@ -27,5 +27,5 @@ permalink: /books/
     {% endfor %}
 </div>
 
-[Полный список книг](https://www.gitbook.com/@cdrpro).   
+[Полный список книг](https://www.gitbook.com/@cdrpro-macros/).   
 _Следите за обновлениями..._
