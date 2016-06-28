@@ -12,7 +12,7 @@ color: "#ffcc00"
 
 ## Overview
 
-**A detailed [GUIDE](https://www.gitbook.com/book/cdrpro/cardgenerator-en/)**.
+**A detailed [GUIDE](https://www.gitbook.com/book/cdrpro-macros/cardgenerator-en/)**.
 
 This macro allows you to do merge text strings, barcodes, and images based on a tab-delimited text file.
 

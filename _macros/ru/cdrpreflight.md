@@ -12,7 +12,7 @@ color: "#ff974f"
 
 ## Обзор
 
-**[Подробное описание](https://www.gitbook.com/book/cdrpro/cdrpreflight/) всех возможностей макроса.**
+**[Подробное описание](https://www.gitbook.com/book/cdrpro-macros/cdrpreflight/) всех возможностей макроса.**
 
 ### Примечание к пробной версии
 
