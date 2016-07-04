@@ -14,12 +14,12 @@ permalink: /books/
         </div>
         <div class="book__content">
             <h2 class="book__title">
-                <a href="{{ book[1].link }}" target="_blank">{{ book[1].name }}</a>
+                <a href="{{ book[1].link }}">{{ book[1].name }}</a>
             </h2>
             <p class="book__description">
                 {{ book[1].description }}
             </p>
-            <a href="{{ book[1].link }}" class="btn  btn__more" target="_blank">
+            <a href="{{ book[1].link }}" class="btn  btn__more">
                 Читать онлайн или скачать...
             </a>
         </div>

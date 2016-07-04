@@ -22,16 +22,16 @@ permalink: /macros/
     <!-- OPEN SOURCE -->
     <h2>Open Source</h2>
     <p>Бесплатные макросы с исходным кодом, которые можно модифицировать.
-        <a href="/blog/opensource-macros.html" target="_blank">Подробности</a>. <br>
+        <a href="/blog/opensource-macros.html">Подробности</a>. <br>
         Больше исходников доступно по ссылке:
-        <a href="https://github.com/cdrpro-macros" target="_blank">github.com/cdrpro-macros</a>
+        <a href="https://github.com/cdrpro-macros">github.com/cdrpro-macros</a>
     </p>
     <div class="simple-table  open-source-macros">
         {% for opensource_macro in site.data.opensource_macros %}
         {% assign macro = opensource_macro[1] %}
         <div class="simple-table__row">
             <div class="simple-table__left-cell  open-source-macros__left-cell">
-                <a href="{{ macro.link }}" class="open-source-macros__title" target="_blank">{{ macro.name }}</a>
+                <a href="{{ macro.link }}" class="open-source-macros__title">{{ macro.name }}</a>
             </div>
             <div class="simple-table__right-cell  open-source-macros__right-cell">{{ macro.description["ru"] }}</div>
         </div>
