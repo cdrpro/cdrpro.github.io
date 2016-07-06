@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+//------------------------------------
+//     FOOTER
+//------------------------------------
+
+.footer {
+    font-size: 11px;
+    color: #ccc;
+    background: #273444;
+    flex: none;
+
+    @media #{$tablet} {
+        font-size: 13px;
+    }
+
+    @media #{$desktop} {
+        font-size: 14px;
+    }
+
+    &__top {
+        color: #fff;
+        background: $brand;
+
+        .en & {
+            background: $brand-en;
+        }
+    }
+
+    &__top-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.footer-logo {
+    display: inline-block;
+    padding: 14px 16px;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+    background: $brand2;
+
+    .en & {
+        color: #fff;
+        background: $brand2-en;
+    }
+}
+
+.corel-russia {
+    display: inline-block;
+    padding: 14px 16px;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+
+    .en & {
+        color: #fff;
+    }
+}
+
+.footer-content {
+    padding: 40px 16px 60px;
+    text-align: center;
+
+    @media #{$tablet} {
+        padding: 50px 16px 70px;
+    }
+
+    a {
+        color: #ccc;
+        text-decoration: none;
+
+        &:hover {
+            color: $brand;
+        }
+    }
+
+    .en & a:hover {
+        color: $brand-en;
+    }
+}
+
+.social {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 14px 10px 0;
+
+    .nav-icon {
+        fill: #999;
+    }
+
+    &:hover {
+        .nav-icon {
+            fill: $brand;
+        }
+    }
+}

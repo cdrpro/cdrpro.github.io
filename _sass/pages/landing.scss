@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.landing-page {
+    flex: 1 0 auto;
+
+    &__cover-bg {
+        background: #666 no-repeat center;
+        background-size: cover;
+    }
+
+    &__cover-no-img {
+        height: 200px;
+
+        @media #{$tablet} {
+            height: 320px;
+        }
+
+        @media #{$desktop} {
+            height: 420px;
+        }
+    }
+
+    &__cover {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    &__content {
+        max-width: $width;
+        padding: 20px 16px 60px;
+        margin: 0 auto;
+        -webkit-hyphens: auto;
+        hanging-punctuation: first;
+
+        @media #{$desktop} {
+            padding: 20px 0 60px;
+        }
+    }
+}

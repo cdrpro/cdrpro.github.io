@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+//------------------------------------
+//     BUTTON
+//------------------------------------
+
+.btn {
+    display: inline-block;
+    padding: 14px 16px;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: $brand;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    border-radius: 2px;
+    -webkit-appearance: none;
+
+    @media #{$tablet} {
+        font-size: 16px;
+        text-transform: none;
+    }
+
+    &:hover {
+        color: #fff;
+        background: $brand2;
+    }
+
+    &:disabled,
+    &.disabled {
+        cursor: default;
+        background: #aaa;
+        border-bottom-color: rgba(0, 0, 0, .1);
+    }
+
+    &__more {
+        padding: 8px 16px;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: .05em;
+        color: $brand;
+        text-transform: uppercase;
+        background: $background;
+        border: 1px solid $brand;
+
+        &:hover {
+            background: $brand;
+        }
+    }
+
+    .en & {
+        color: #fff;
+        background: $brand-en;
+
+        &:hover {
+            background: $brand2-en;
+        }
+
+        &:disabled,
+        &.disabled {
+            background: #aaa;
+        }
+
+        &__more {
+            color: $brand-en;
+            background: $background;
+            border: 1px solid $brand-en;
+
+            &:hover {
+                color: #fff;
+                background: $brand-en;
+            }
+        }
+    }
+}

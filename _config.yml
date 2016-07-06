@@ -17,6 +17,10 @@ exclude: [
   README.md
 ]
 
+sass:
+  sass_dir: _sass
+  style: compressed # nested, compact, expanded, compressed
+
 permalink: none # /:categories/:title.html
 
 # Collections

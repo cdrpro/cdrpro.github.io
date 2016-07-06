@@ -1,0 +1,56 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+@charset "UTF-8";
+
+//------------------------------------
+//    VARIABLES
+//------------------------------------
+
+$width: 800px;
+$header-height: 54px;
+$header-height-desktop: 58px;
+
+$background: #f6f6f6;
+
+$brand: #d05245;
+$brand2: #d67455;
+
+$brand-en: #00a4ad;
+$brand2-en: #04b5bf;
+$link-en: #01738b;
+
+
+
+
+//------------------------------------
+//    MEDIA QUERIES
+//------------------------------------
+
+$tablet: 'only screen and (min-width: 760px)';
+$desktop: 'only screen and (min-width: 1024px)';
+
+
+
+
+//------------------------------------
+//     IMPORTS
+//------------------------------------
+
+@import "base/base";
+@import "base/buttons";
+
+@import "layout/layout";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/notification";
+@import "layout/simple-table";
+
+@import "pages/home";
+@import "pages/pages";
+@import "pages/macros";
+@import "pages/landing";
+@import "pages/books";
+@import "pages/posts";
+@import "pages/updates";

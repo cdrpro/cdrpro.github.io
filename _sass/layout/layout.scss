@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+//------------------------------------
+//     LAYOUT
+//------------------------------------
+
+.page-wrapper {
+    display: flex;
+    min-height: 100%;
+    padding-top: $header-height;
+    flex-direction: column;
+
+    @media #{$desktop} {
+        padding-top: $header-height-desktop;
+    }
+}
+
+.wrapper {
+    max-width: $width;
+    margin: 0 auto;
+}

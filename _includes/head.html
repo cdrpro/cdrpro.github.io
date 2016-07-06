@@ -6,6 +6,6 @@
     <meta name="description" content="{% if page.layout == 'macros' %}{{ page.description | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description['ru'] }}{% endif %}">
 
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
-    {% include styles.html %}
+    <link rel="stylesheet" href="/css/screen.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>

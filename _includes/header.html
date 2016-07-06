@@ -7,13 +7,14 @@
         {% endif %}
         <div id="menu" class="nav__wrapper">
             <a class="nav__overlay" href="#"></a>
-            <a class="nav__show" href="#menu"></a>
+            <a class="nav__show" href="#menu">
+                {% include hamburger.svg %}
+            </a>
             <nav class="nav">
                 <a class="nav__item" href="{{ site.baseurl }}/macros/">Макросы</a>
                 <a class="nav__item" href="{{ site.baseurl }}/blog/">Блог</a>
                 <a class="nav__item" href="{{ site.baseurl }}/books/">Книги</a>
                 <a class="nav__item" href="{{ site.baseurl }}/forum/">Форум</a>
-                <!--<a class="nav__item" href="{{ site.baseurl }}/about/">О проекте</a>-->
                 <a class="nav__item  nav__item--lang" href="{{ site.baseurl }}/en/">EN</a>
             </nav>
         </div>
