@@ -4,7 +4,10 @@ layout: default_en
 
 <div class="home">
     <h2>Where should you start?</h2>
-    <p class="home__welcome-en">It is assumed that you are running CorelDRAW X4 - X7. For lower versions, some macros will work, some won't. This is because macros use new features accessible through VBA, C# or Vb.NET with each new version of CorelDRAW. Be sure to read the 'Terms and Conditions'. And read the 'How to buy' if you want to buy one of the paid macros.</p>
+    <p class="home__welcome-en">It is assumed that you are running CorelDRAW X4 - X7. For lower versions,
+        some macros will work, some won't. This is because macros use new features accessible through VBA,
+        C# or Vb.NET with each new version of CorelDRAW. Be sure to read the 'Terms and Conditions'.
+        And read the 'How to buy' if you want to buy one of the paid macros.</p>
     <!-- MACROS -->
     <h2>Best macros</h2>
     {% assign macros = (site.macros | where: 'layout' , 'macros_en' | where: 'sticky', true ) %}
