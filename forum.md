@@ -1,10 +1,7 @@
 ---
-layout: landing
+layout: page
 title:  "Форум переехал в #Slack"
 permalink: /forum/
-cover:
-  background: "linear-gradient(#2f6b96, #73e1f3)" 
-  image: "/assets/static/slack.svg"
 ---
 
 Для тех, кто в курсе что такое Slack и как им пользоваться, 
