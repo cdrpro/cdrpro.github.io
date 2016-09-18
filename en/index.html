@@ -35,12 +35,10 @@ layout: default_en
         {% for update in updates limit:6 %}
         <div class="simple-table__row">
             <div class="simple-table__left-cell  last-updates__left-cell">
-                <h3 class="last-updates__title">
-                    {{ update.title }}
-                </h3>
+                {{ update.date | date: "%b %-d, %Y" }}
             </div>
             <div class="simple-table__right-cell  last-updates__right-cell">
-                {{ update.date | date: "%b %-d, %Y" }}
+                <h3 class="last-updates__title">{{ update.title }}</h3>
             </div>
         </div>
         {% endfor %}

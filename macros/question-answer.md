@@ -4,7 +4,7 @@ title: "Макросы: вопросы и ответы"
 permalink: /macros/question-answer/
 ---
 
-### Платные макросы
+## Платные макросы
 
 #### Как можно оплатить макрос?
 
@@ -32,7 +32,7 @@ permalink: /macros/question-answer/
 
 ***
 
-### CardGenerator
+## CardGenerator
 
 #### Не могу понять, где посмотреть _Computer ID_
 
