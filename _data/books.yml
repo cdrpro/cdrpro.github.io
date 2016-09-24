@@ -1,8 +1,8 @@
 coreldraw:
   name: "Понятно о CorelDRAW"
   link: "https://www.gitbook.com/book/cdrpro-macros/coreldraw/details"
-  inprogress: true
-  description: "Большой сбоник материалов о CorelDRAW, и всего что с ним связано, написанных с 2007 года."
+  inprogress: false
+  description: "Большой сборник материалов о CorelDRAW (X3–X7), и всего что с ним связано, написанных с 2007 года. Всё то, что было опубликовано в разделе Уроки > Статьи и советы в старой версии портала cdrpro.ru."
 pp:
   name: "Изучаем Corel PHOTO-PAINT"
   link: "https://www.gitbook.com/book/cdrpro-macros/pp-book/details"
