@@ -13,13 +13,13 @@
         <div class="wrapper">
             <div class="footer__copy">
                 &copy; 2007–2016 {{ site.title }} <br>
-                <a href="http://cdrpro.github.io/en/">cdrpro.github.io</a>
+                <a href="https://{{ site.github_page_url }}">{{ site.github_page_url }}</a>
             </div>
             <div class="footer__social">
-                <a href="https://github.com/cdrpro" class="social">
+                <a href="https://github.com/{{ site.github_username }}" class="social">
                     {% include github.svg %}
                 </a>
-                <a href="https://twitter.com/SanichKotikov" class="social">
+                <a href="https://twitter.com/{{ site.twitter_username }}" class="social">
                     {% include twitter.svg %}
                 </a>
             </div>
