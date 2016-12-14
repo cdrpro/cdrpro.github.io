@@ -11,8 +11,6 @@ permalink: /links/
 {{ book[1].description }}
 {% endfor %}
 
-<small>[Полный список книг...](https://www.gitbook.com/@cdrpro-macros/)</small>
-
 ***
 
 ## Архив форума cdrpro.ru
