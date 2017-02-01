@@ -2,9 +2,11 @@
 
 .notification {
     position: relative;
+    display: block;
     width: 280px;
     padding: 16px 40px 20px 20px;
     color: #eee;
+    text-decoration: none;
     white-space: pre-line;
     background: #333;
     -webkit-transform: translate3d(0, 0, 0);
@@ -51,5 +53,13 @@
     &__hidden {
         -webkit-transform: translate3d(300px, 0, 0);
         transform: translate3d(300px, 0, 0);
+    }
+
+    &__link {
+        transition: all .5s, background .3s;
+
+        &:hover {
+            background: #444;
+        }
     }
 }

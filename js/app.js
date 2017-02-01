@@ -75,6 +75,7 @@
         var HIDE_DELAY = 5 * 1000; // 5s
 
         var HIDDEN_CLASS = 'notification__hidden';
+        var LINK_CLASS = 'notification__link';
         var MANUAL_CLOSE_CLASS = 'js-manual-close';
 
         var wrapper = document.createElement('div');
@@ -97,16 +98,29 @@
          * Show a new notification
          * @param {string} text
          * @param {Object} options
+         * @param {string} link
          */
-        function show(text, options) {
+        function show(text, options, link) {
             if (options === undefined) options = {};
+            var notification;
 
-            var notification = document.createElement('div');
+            if (!link) {
+                notification = document.createElement('div');
+            } else {
+                notification = document.createElement('a');
+                notification.setAttribute('href', link);
+            }
+
             notification.className = ['notification', HIDDEN_CLASS].join('  ');
             notification.textContent = text;
 
             if (options.type) notification.classList.add('notification--' + options.type);
-            if (options.auto === false) notification.classList.add(MANUAL_CLOSE_CLASS);
+
+            if (!link && options.auto === false) {
+                notification.classList.add(MANUAL_CLOSE_CLASS);
+            } else if (!!link) {
+                notification.classList.add(LINK_CLASS);
+            }
 
             wrapper.appendChild(notification);
 
@@ -163,8 +177,10 @@
                         if (!notify.active) continue;
                         if (storage.read(notify.key)) continue;
 
-                        notificationManager.show(notify.msg[language], { auto: false });
-                        storage.save(notify.key, true);
+                        if (notify.msg[language]) {
+                            notificationManager.show(notify.msg[language], { auto: false }, notify.link);
+                            storage.save(notify.key, true);
+                        }
                     }
                 }
 

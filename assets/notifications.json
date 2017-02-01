@@ -6,5 +6,14 @@
       "ru": "Обратите внимание!\nСайт находится в стадии разработки.",
       "en": "Please note!\nThis site is under development."
     }
+  },
+  {
+    "key": 1485953284,
+    "active": true,
+    "link": "https://goo.gl/forms/QPV3iYIQi1OIaqM62",
+    "msg": {
+      "ru": "Опрос на тему макроса CardGenerator, про штрих-коды и QR-коды (ссылка)",
+      "en": null
+    }
   }
 ]

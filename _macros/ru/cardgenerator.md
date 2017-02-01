@@ -12,6 +12,8 @@ color: "#ffcc00"
 
 ## Обзор
 
+[Опрос на тему макроса CardGenerator, про штрих-коды и QR-коды](https://goo.gl/forms/QPV3iYIQi1OIaqM62).
+
 **[Подробное описание](https://www.gitbook.com/book/cdrpro-macros/cardgenerator/) всех возможностей макроса.**
 
 CardGenerator — макрос, который позволяет быстро и просто создавать нумерации, а так же импортировать
