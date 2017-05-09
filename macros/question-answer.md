@@ -71,3 +71,12 @@ permalink: /macros/question-answer/
 
 Примечание: Что бы выделить и скопировать _Computer ID_, нужно установить курсор в поле,
 нажать `Ctrl + A` а затем `Ctrl + C`.
+
+## CdrPreflight
+
+#### Поменяли оборудование. Как посмотреть новый _Computer ID_?
+
+Чтобы открыть окно активации, после смены оборудования, и посмотреть новый _Computer ID_,
+необходимо удалить следующие ключи из реестра системы (с помощью утилиты _regedit_):
+_TempKey_, _Key_ и _Purchased_. Найти их можно по следующему пути:
+_HKEY_CURRENT_USER\Software\VB and VBA Program Settings\CdrPreflight\General_.
