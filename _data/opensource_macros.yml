@@ -10,6 +10,12 @@ exporttojpg:
   description:
     ru: "Экспорт в JPG (старая версия)."
     en: "Export to jpeg (old version)."
+aiclipboard:
+  name: "AiClipboard"
+  link: "https://github.com/cdrpro-macros/ai-clipboard"
+  description:
+    ru: "Копирование/вставка векторных и растровых объектов между CorelDRAW и Adobe Illustrator."
+    en: "Copy/paste vector and raster objects between CorelDRAW and Adobe Illustrator."
 textreplacer:
   name: "TextReplacer"
   link: "https://github.com/cdrpro-macros/text-replacer"

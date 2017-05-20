@@ -72,6 +72,8 @@ permalink: /macros/question-answer/
 Примечание: Что бы выделить и скопировать _Computer ID_, нужно установить курсор в поле,
 нажать `Ctrl + A` а затем `Ctrl + C`.
 
+***
+
 ## CdrPreflight
 
 #### Поменяли оборудование. Как посмотреть новый _Computer ID_?
