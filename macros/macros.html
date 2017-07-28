@@ -13,6 +13,9 @@ permalink: /macros/
             <h2 class="macro-teaser__title">
                 <a href="{{ macro.url }}">{{ macro.title }}</a>
             </h2>
+            <div class="macro-teaser__meta">
+                Версия: {{ macro.version }} &nbsp; Совместимость: {{ macro.app }}
+            </div>
             <p class="macro-teaser__content">
                 {{ macro.description | strip_html }}
             </p>

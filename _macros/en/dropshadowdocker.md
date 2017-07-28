@@ -2,6 +2,7 @@
 layout: macros_en
 title: DropShadowDocker
 version: 1.3
+app: X6–X7
 download: DropShadowDocker_v1.3.zip
 price: 9.95
 sticky: true

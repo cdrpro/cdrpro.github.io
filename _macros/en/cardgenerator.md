@@ -2,6 +2,7 @@
 layout: macros_en
 title: CardGenerator
 version: 5.2
+app: X3–X7
 download: CardGenerator_5.2.zip
 price: 59.95
 sticky: true

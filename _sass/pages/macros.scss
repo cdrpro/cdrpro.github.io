@@ -59,7 +59,12 @@
     }
 
     &__title {
-        margin: 10px 0;
+        margin: 10px 0 0;
+    }
+
+    &__meta {
+        font-size: 12px;
+        text-transform: uppercase;
     }
 
     &__content {
@@ -80,6 +85,7 @@
 //------------------------------------
 
 .macro {
+
     &__header {
         position: relative;
         padding: 16px 16px 60px;
@@ -167,6 +173,10 @@
 
         img {
             height: auto;
+            max-width: 100%;
+        }
+
+        iframe {
             max-width: 100%;
         }
     }

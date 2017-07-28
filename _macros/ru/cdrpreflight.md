@@ -2,6 +2,7 @@
 layout: macros
 title: CdrPreflight
 version: 6.3
+app: X4–X7
 download: CdrPreflight.zip
 price: 999
 sticky: true

@@ -2,9 +2,9 @@
 layout: macros
 title: CardGenerator
 version: 5.2
+app: X3–X7
 download: CardGenerator_5.2.zip
 price: 1499
-sticky: true
 permalink: /macros/cardgenerator/
 description: Автоматическая генерация большого количества штрих-кодов на основе переменных данных. Создание сложных нумераций в несколько кликов. Автоматическое размещение переменных данных на страницах документа CorelDRAW.
 color: "#ffcc00"
@@ -12,7 +12,8 @@ color: "#ffcc00"
 
 ## Обзор
 
-[Опрос на тему макроса CardGenerator, про штрих-коды и QR-коды](https://goo.gl/forms/QPV3iYIQi1OIaqM62).
+[Опрос на тему макроса CardGenerator, про штрих-коды и QR-коды](https://goo.gl/forms/QPV3iYIQi1OIaqM62).   
+**Обратите внимание на новый [CardGenerator Docker](/macros/cardgenerator-docker/).**
 
 **[Подробное описание](https://www.gitbook.com/book/cdrpro-macros/cardgenerator/) всех возможностей макроса.**
 

@@ -2,6 +2,7 @@
 layout: macros_en
 title: CdrToolsEx
 version: 2.1
+app: X6–X7
 download: CdrToolsEx_2.1.zip
 price: 9.95
 permalink: /en/macros/cdrtools-ex/
