@@ -10,10 +10,13 @@ description: Автоматическая генерация большого к
 color: "#ffcc00"
 ---
 
-## Обзор
-
-[Опрос на тему макроса CardGenerator, про штрих-коды и QR-коды](https://goo.gl/forms/QPV3iYIQi1OIaqM62).   
 **Обратите внимание на новый [CardGenerator Docker](/macros/cardgenerator-docker/).**
+Текущий макрос больше не поддерживается, но вы всё равно можете его купить,
+например, если вам нужна совместимость с версиями X3-X6.
+
+[Опрос на тему макроса CardGenerator, про штрих-коды и QR-коды](https://goo.gl/forms/QPV3iYIQi1OIaqM62).
+
+## Обзор
 
 **[Подробное описание](https://www.gitbook.com/book/cdrpro-macros/cardgenerator/) всех возможностей макроса.**
 

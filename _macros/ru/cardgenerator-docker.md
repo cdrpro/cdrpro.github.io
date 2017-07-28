@@ -1,7 +1,7 @@
 ---
 layout: macros
 title: CardGenerator Docker
-version: 1.0 beta
+version: 1.0 beta 2
 app: X7–2017
 download: CardGeneratorDocker_beta2.zip
 price: 999
@@ -38,9 +38,10 @@ color: "#ffb505"
   * UPC
   * CODE39
   * codabar
-* Текст (фигурный)
+* Текст:
+  * Фигурный
 
-Примичание: В планах добавить поддержку QR-кодов и изображений,
+Примичание: В ближайших планах добавить поддержку QR-кодов и изображений,
 а также расширить список типов штрих-кодов.
 
 ### Совместимость
