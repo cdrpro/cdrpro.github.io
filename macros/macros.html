@@ -14,6 +14,9 @@ permalink: /macros/
                 <a href="{{ macro.url }}">{{ macro.title }}</a>
             </h2>
             <div class="macro-teaser__meta">
+                {% if macro.new == true %}
+                    <span class="macro-teaser__new">новинка</span>
+                {% endif %}
                 Версия: {{ macro.version }} &nbsp; Совместимость: {{ macro.app }}
             </div>
             <p class="macro-teaser__content">

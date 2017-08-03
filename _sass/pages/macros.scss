@@ -67,6 +67,22 @@
         text-transform: uppercase;
     }
 
+    &__new {
+        display: inline-block;
+        padding: 3px 4px;
+        margin-right: 4px;
+        font-size: .8em;
+        font-weight: bold;
+        line-height: 1;
+        color: #fff;
+        background: $brand;
+        border-radius: 2px;
+
+        .en & {
+            background: $brand-en;
+        }
+    }
+
     &__content {
         margin: 10px 0;
         font-size: 16px;

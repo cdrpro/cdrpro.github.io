@@ -6,6 +6,7 @@ app: X7–2017
 download: CardGeneratorDocker_beta2.zip
 price: 999
 sticky: true
+new: true
 permalink: /macros/cardgenerator-docker/
 description: Новый инструмент для генерации и размещения большого количества штрих-кодов, разработанный специально для актуальных версий CorelDRAW (X7–2017).
 color: "#ffb505"
