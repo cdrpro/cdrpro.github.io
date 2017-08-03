@@ -53,6 +53,9 @@ as well as expand the list of barcode types.
 * English
 * Russian
 
+Is your language not in the list or found a spelling mistake?   
+You can [participate](https://poeditor.com/join/project/BCyk4vVbhr) in the localization of this project.
+
 ### Installation and running
 
 1. Close CorelDRAW
