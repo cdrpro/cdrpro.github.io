@@ -38,7 +38,7 @@ color: "#ffb505"
   * EAN13, EAN8
   * UPC
   * CODE39
-  * codabar
+  * Codabar
 * Текст:
   * Фигурный
 

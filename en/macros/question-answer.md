@@ -8,20 +8,21 @@ permalink: /en/macros/question-answer/
 
 #### Is there any other ways to pay?
 
-No. It's PayPal or WebMoney only, for now.
+It's PayPal USD (VISA, MasterCard, Maestro, DISCOVER, American Express) only.
 
 #### If I buy a macro, can I install it on multiple computers? For example at work and at home.
 
 For each computer macro must be purchased separately.
 
-#### If I buy a macro, and then reinstall the OS, I will need to buy it again?
+#### If I buy a macro, and then reinstall the OS, do I need to buy it again?
 
-No!
+No, you don't!
 
-#### What about if I want to update the part of the computer? Need to buy a macro again?
+#### What about if I want to update the part of the computer? Do I need to buy a macro again?
 
-No, you do not. For example, replacing/adding HDD does not affect the registration. However, if you get "Your registration key does not correspond to this computer" message after upgrade, you can update activation key but not more than once a year and three times only.
+In most cases you don't. However, if you get "Your registration key does not correspond to this computer" message
+after upgrade, you can update activation key but not more than once a year and three times only.
 
 #### If I buy a macro, can I get the following updates for free?
 
-In most cases, yes.
+In most cases, yes, you can.
