@@ -8,7 +8,7 @@ permalink: /en/macros/question-answer/
 
 #### Is there any other ways to pay?
 
-It's PayPal USD (VISA, MasterCard, Maestro, DISCOVER, American Express) only.
+It's PayPal USD (account is required) only.
 
 #### If I buy a macro, can I install it on multiple computers? For example at work and at home.
 
