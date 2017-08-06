@@ -1,9 +1,9 @@
 ---
 layout: macros
 title: CardGenerator Docker
-version: 1.0 beta 2
+version: 1.0 beta 3
 app: X7–2017
-download: CardGeneratorDocker_beta2.zip
+download: CardGeneratorDocker_beta3.zip
 price: 999
 sticky: true
 new: true
