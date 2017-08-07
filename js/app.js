@@ -158,6 +158,36 @@
 
 
   /**
+   * GA Logger
+   *
+   * @constructor
+   */
+  function Logger() {
+    function onClick(event) {
+      var target = event.target;
+
+      if (target.dataset && 'event' in target.dataset) {
+        if (typeof ga === 'function') {
+          var data = target.dataset;
+          ga('send', {
+            hitType: 'event',
+            eventCategory: data.event,
+            eventAction: data.eventAction,
+            eventLabel: data.eventLabel
+          });
+        }
+      }
+    }
+
+    function subscribe() {
+      document.addEventListener('click', onClick);
+    }
+
+    subscribe();
+  }
+
+
+  /**
    * Application
    *
    * @returns {Object}
@@ -166,6 +196,7 @@
   function App() {
     var language = document.documentElement.lang || 'ru';
 
+    new Logger();
     var storage = new Storage();
     var notificationManager = new NotificationManager();
 
