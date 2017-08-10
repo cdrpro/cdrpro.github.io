@@ -164,6 +164,8 @@
    */
   function Logger() {
     function onClick(event) {
+      // Ignore 'fake' events
+      if (event.isTrusted !== true) return;
       var target = event.target;
 
       if (target.dataset && 'event' in target.dataset) {
