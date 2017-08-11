@@ -1,0 +1,30 @@
+{
+  "CDG": [
+    {
+      "version": "1.0.4",
+      "changes": {
+        "def": [
+          "Added \"feedback\" button",
+          "Added checking of updates"
+        ],
+        "1049": [
+          "Добавлена кнопка \"Обратная связь\"",
+          "Добавлена проверка обновлений"
+        ]
+      }
+    },
+    {
+      "version": "1.0.3",
+      "changes": {
+        "def": [
+          "Fixed \"File not found\"",
+          "Fixed \"EN\" link"
+        ],
+        "1049": [
+          "Исправлена ошибка \"File not found\"",
+          "Исправлена \"EN\" ссылка"
+        ]
+      }
+    }
+  ]
+}
