@@ -1,15 +1,19 @@
 {
   "CDG": [
     {
-      "version": "1.0.4",
+      "version": "1.1.0",
       "changes": {
         "def": [
           "Added \"feedback\" button",
-          "Added checking of updates"
+          "Added checking of updates",
+          "Added display of progress value",
+          "Added collecting of anonymous usage statistics"
         ],
         "1049": [
           "Добавлена кнопка \"Обратная связь\"",
-          "Добавлена проверка обновлений"
+          "Добавлена проверка обновлений",
+          "Добавлено отображение значения прогресса",
+          "Добавлен сбор анонимной статистики использования"
         ]
       }
     },
