@@ -8,7 +8,7 @@ price: 34.95
 sticky: true
 new: true
 permalink: /en/macros/cardgenerator-docker/
-description: The new tool for generating and placement a large number of barcodes, developed especially for actual CorelDRAW versions (X7–2017).
+description: The new tool for generating and placement a large number of barcodes and text, based on variables data, developed especially for actual CorelDRAW versions (X7–2017).
 color: "#ffb505"
 ---
 
