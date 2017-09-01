@@ -4,6 +4,7 @@ title: CardGenerator Docker
 version: 1.1
 app: X7–2017
 download: CardGeneratorDocker_v1.1.0.zip
+feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
 price: 999
 sticky: true
 new: true
