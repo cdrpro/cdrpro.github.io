@@ -1,6 +1,17 @@
 {
   "CDG": [
     {
+      "version": "2.0.0",
+      "changes": {
+        "def": [
+          "Added supporting of QR Codes"
+        ],
+        "1049": [
+          "Добавлена поддержка QR-кодов"
+        ]
+      }
+    },
+    {
       "version": "1.1.0",
       "changes": {
         "def": [
