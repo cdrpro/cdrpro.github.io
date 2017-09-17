@@ -1,6 +1,17 @@
 {
   "CDG": [
     {
+      "version": "2.1.0",
+      "changes": {
+        "def": [
+          "Expanded support for text properties"
+        ],
+        "1049": [
+          "Расширена поддержка свойств текста"
+        ]
+      }
+    },
+    {
       "version": "2.0.0",
       "changes": {
         "def": [
