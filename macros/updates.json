@@ -1,6 +1,17 @@
 {
   "CDG": [
     {
+      "version": "2.1.1",
+      "changes": {
+        "def": [
+          "Fixed error \"The macro module is not found\""
+        ],
+        "1049": [
+          "Исправлена ошибка \"Не найден модуль макроса\""
+        ]
+      }
+    },
+    {
       "version": "2.1.0",
       "changes": {
         "def": [
