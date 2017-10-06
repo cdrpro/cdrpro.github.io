@@ -8,7 +8,7 @@ feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
 price: 999
 sticky: true
 new: true
-permalink: /macros/cardgenerator-docker/
+permalink: /macros/cardgenerator/
 description: Новый инструмент для генерации и размещения большого количества штрих-кодов, qr-кодов и текста, на основе переменных данных, разработанный специально для актуальных версий CorelDRAW (X7–2017).
 color: "#ffb505"
 ---

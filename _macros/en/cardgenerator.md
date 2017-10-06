@@ -2,17 +2,17 @@
 layout: macros_en
 title: CardGenerator
 version: 5.2
-app: X3–X7
+app: X3–X6
 download: CardGenerator_5.2.zip
 price: 49.95
-permalink: /en/macros/cardgenerator/
+permalink: /en/macros/cardgen/
 description: Generate series of barcodes based on your variable data. Flexible numbering scenarios and automatic placement of variable data on document pages.
 color: "#ffcc00"
 ---
 
-**PAY ATTENTION** on a new [CardGenerator Docker](/en/macros/cardgenerator-docker/).
-The current macro is no longer supported, but you can still buy it.
-For example, if you need compatibility with versions X3-X6.
+**PAY ATTENTION:** The current macro is no longer supported, but you can buy it anyway.
+For example, if you need compatibility with X3-X6 versions. However, it's better to use
+new [CardGenerator Docker](/en/macros/cardgenerator/), designed for X7 and newer.
 
 ## Overview
 
@@ -60,7 +60,6 @@ CorelDRAW VBA must be installed.
 * CorelDRAW Х4 (14.0.0.701)
 * CorelDRAW X5 (15.1.0.588 or above)
 * CorelDRAW X6 (16.0.0.707 or above)
-* CorelDRAW X7 (17.0.0.491 or above)
 
 ### Localisation
 
@@ -76,7 +75,3 @@ to one system only. Your product activation key may take up to 24 hours to arriv
 ### Computer ID
 
 Run the demo, and click on the 'Click here for activate' string.
-
-### Upgrade
-    
-If you own CardGenerator 4.x, the new version will only be $9.95.
