@@ -10,7 +10,7 @@ layout: default_en
         And read the 'How to buy' if you want to buy one of the paid macros.</p>
     <!-- MACROS -->
     <h2>Best macros</h2>
-    {% assign macros = (site.macros | where: 'layout' , 'macros_en' | where: 'sticky', true ) %}
+    {% assign macros = site.macros | where: 'layout', 'macros_en' | where: 'sticky', true %}
     <div class="best-macros">
         {% for macro in macros %}
         <div class="best-macro">
@@ -28,7 +28,7 @@ layout: default_en
     </div>
     <!-- UPDATES -->
     <h2>Last updates</h2>
-    {% assign updates_count = (site.updates | size) %}
+    {% assign updates_count = site.updates | size %}
     {% if updates_count != 0 %}
     <div class="simple-table  last-updates">
         {% assign updates = site.updates | sort: 'date' | reverse %}

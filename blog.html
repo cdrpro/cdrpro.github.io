@@ -12,8 +12,8 @@ permalink: /blog/
 </div>
 
 <div class="posts-list">
-    {% assign posts = (site.categories['blog'] | where: 'lang', 'ru') %}
-    {% assign posts_count = (posts | size) %}
+    {% assign posts = site.categories['blog'] | where: 'lang', 'ru' %}
+    {% assign posts_count = posts | size %}
 
     {% if posts_count != 0 %}
     {% for post in posts %}

@@ -4,8 +4,8 @@ layout: default
 
 <h1>Записи по тегу: {{ site.data.tags[page.tag] }}</h1>
 <div>
-    {% assign posts = (site.tags[page.tag] | where: 'lang', 'ru') %}
-    {% assign posts_count = (posts | size) %}
+    {% assign posts = site.tags[page.tag] | where: 'lang', 'ru' %}
+    {% assign posts_count = posts | size %}
 
     {% if posts_count != 0 %}
     {% for post in posts %}

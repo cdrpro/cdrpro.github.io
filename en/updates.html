@@ -5,7 +5,7 @@ permalink: /en/macros/updates/
 
 <h1>Updates</h1>
 <div class="updates-list">
-    {% assign updates_count = (site.updates | size) %}
+    {% assign updates_count = site.updates | size %}
     {% if updates_count != 0 %}
         {% for update in site.updates reversed %}
             <div class="update">

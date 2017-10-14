@@ -6,7 +6,7 @@ layout: home
 <div class="home__macros">
     <div class="wrapper">
         <h2>Макросы</h2>
-        {% assign macros = (site.macros | where: 'layout' , 'macros' | where: 'sticky', true ) %}
+        {% assign macros = site.macros | where: 'layout', 'macros' | where: 'sticky', true %}
         <div class="best-macros">
             {% for macro in macros %}
             <div class="best-macro">
@@ -25,8 +25,8 @@ layout: home
     </div>
 </div>
 <!-- BLOG -->
-{% assign posts = (site.posts | | where: 'lang', 'ru') %}
-{% assign posts_count = (posts | size) %}
+{% assign posts = site.posts | where: 'lang', 'ru' %}
+{% assign posts_count = posts | size %}
 {% if posts_count != 0 %}
 <div class="home__new-posts">
     <div class="wrapper">

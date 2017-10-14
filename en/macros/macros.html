@@ -7,7 +7,7 @@ permalink: /en/macros/
     <!-- MACROS -->
     <h1>Macros</h1>
     <div class="macros-list">
-    {% assign macros = (site.macros | where: 'layout', 'macros_en' ) %}
+    {% assign macros = site.macros | where: 'layout', 'macros_en' %}
     {% for macro in macros %}
         <div class="macro-teaser  {% if macro.sticky == true %}macro-teaser--sticky{% endif %}">
             <h2 class="macro-teaser__title">

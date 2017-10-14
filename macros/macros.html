@@ -7,7 +7,7 @@ permalink: /macros/
     <!-- MACROS -->
     <h1>Макросы</h1>
     <div class="macros-list">
-    {% assign macros = (site.macros | where: "layout" , "macros") %}
+    {% assign macros = site.macros | where: "layout" , "macros" %}
     {% for macro in macros %}
         <div class="macro-teaser">
             <h2 class="macro-teaser__title">
