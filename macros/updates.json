@@ -1,6 +1,21 @@
 {
   "CDG": [
     {
+      "version": "2.2.0",
+      "changes": {
+        "def": [
+          "Added a message instead of an \"unspecified error\"",
+          "Updated localization",
+          "Other improvements"
+        ],
+        "1049": [
+          "Добавлено сообщение вместо \"неопределённой ошибки\"",
+          "Обновлена локализация",
+          "Другие улучшения"
+        ]
+      }
+    },
+    {
       "version": "2.1.1",
       "changes": {
         "def": [
