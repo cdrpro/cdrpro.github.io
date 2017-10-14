@@ -32,6 +32,14 @@ layout: default_en
                    href="http://goo.gl/forms/QwN2V6peyo">
                     Buy (${{ page.price }})
                 </a>
+                {% if page.feedback %}
+                <a class="btn feedback"
+                   target="_blank"
+                   title="Feedback"
+                   href="{{ page.feedback }}">
+                    ?
+                </a>
+                {% endif %}
             </div>
         </div>
     </header>
