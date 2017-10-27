@@ -1,6 +1,17 @@
 {
   "CDG": [
     {
+      "version": "2.3.0",
+      "changes": {
+        "def": [
+          "Added \"Background\" option in BarCode settings"
+        ],
+        "1049": [
+          "Добавлена опция \"Фон\" в настройки штрих-кода"
+        ]
+      }
+    },
+    {
       "version": "2.2.0",
       "changes": {
         "def": [
