@@ -22,3 +22,9 @@ textreplacer:
   description:
     ru: "Макрос для пакетного поиска и замены текста в CorelDRAW."
     en: "A macro for batch finding and replacing of text in CorelDRAW."
+cdrtools:
+  name: "CdrTools"
+  link: "https://github.com/cdrpro-macros/cdr-tools"
+  description:
+    ru: "Большая коллекция макросов для повседневной работы в CorelDRAW."
+    en: "A large collection of simple macros for daily work in CorelDRAW."
