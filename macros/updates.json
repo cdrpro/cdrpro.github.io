@@ -1,6 +1,19 @@
 {
   "CDG": [
     {
+      "version": "2.4.0",
+      "changes": {
+        "def": [
+          "Implemented auto size functionality",
+          "Fixed text alignment issue"
+        ],
+        "1049": [
+          "Реализована функция автоматического размера",
+          "Исправлена проблема выравнивания текста"
+        ]
+      }
+    },
+    {
       "version": "2.3.0",
       "changes": {
         "def": [
