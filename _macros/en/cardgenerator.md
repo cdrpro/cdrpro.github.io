@@ -10,9 +10,8 @@ description: Generate series of barcodes based on your variable data. Flexible n
 color: "#ffcc00"
 ---
 
-**PAY ATTENTION:** The current macro is no longer supported, but you can buy it anyway.
-For example, if you need compatibility with X3-X6 versions. However, it's better to use
-new [CardGenerator Docker](/en/macros/cardgenerator/), designed for X7 and newer.
+**PAY ATTENTION:** The current macro is no longer supported, and may not work on some configurations.
+It's better to use new [CardGenerator Docker](/en/macros/cardgenerator/), designed for CorelDRAW X7 and newer.
 
 ## Overview
 
