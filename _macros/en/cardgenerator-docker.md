@@ -5,7 +5,7 @@ version: 2.4
 app: X7–2017
 download: CardGeneratorDocker_v2.4.0.zip
 feedback: https://goo.gl/forms/ZlYmVZg3Py62nPOC3
-price: 34.95
+price: 44.95
 sticky: true
 new: true
 permalink: /en/macros/cardgenerator/
@@ -13,15 +13,12 @@ description: The new tool for generating and placement a large number of barcode
 color: "#ffb505"
 ---
 
-**SPECIAL OFFER:** be the first one to try the new docker! Only now you can purchase the docker with
-a special **discount 30%**, and get free updates when it will cost the full price.
-
-<iframe width="570" height="360" src="https://www.youtube.com/embed/X-K_WqJ5GXI?rel=0" frameborder="0" allowfullscreen></iframe>
-
 ## Overview
 
 Docker CardGenerator allows you to create and place a large number of barcodes, qr codes and text in CorelDRAW.
 The nearest plans are to add support of images, as well as expand the list of barcode types.
+
+<iframe width="570" height="360" src="https://www.youtube.com/embed/X-K_WqJ5GXI?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Supported types:
 

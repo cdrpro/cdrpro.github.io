@@ -5,7 +5,7 @@ version: 2.4
 app: X7–2017
 download: CardGeneratorDocker_v2.4.0.zip
 feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
-price: 999
+price: 1499
 sticky: true
 new: true
 permalink: /macros/cardgenerator/
@@ -13,15 +13,12 @@ description: Новый инструмент для генерации и раз
 color: "#ffb505"
 ---
 
-**СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ:** станьте первым, кто попробует новый докер! Только сейчас вы можете приобрести докер
-со **скидкой 33%**, и получить бесплатно обновления, когда он будет стоить 1499 руб.
-
-<iframe width="570" height="360" src="https://www.youtube.com/embed/X-K_WqJ5GXI?rel=0" frameborder="0" allowfullscreen></iframe>
-
 ## Обзор
 
 Докер CardGenerator позволяет создавать и размещать большое количество штрих-кодов, qr-кодов и текста в CorelDRAW.
 В ближайших планах добавить поддержку изображений, а также расширить список штрих-кодов.
+
+<iframe width="570" height="360" src="https://www.youtube.com/embed/X-K_WqJ5GXI?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Поддержка типов:
 
