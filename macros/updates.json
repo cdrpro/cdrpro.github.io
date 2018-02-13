@@ -1,6 +1,23 @@
 {
   "CDG": [
     {
+      "version": "2.4.1",
+      "changes": {
+        "def": [
+          "Fixed wrong size issue for rotated BarCodes",
+          "Fixed reading of a data file",
+          "Fixed Codabar encoding",
+          "Updated locales"
+        ],
+        "1049": [
+          "Исправлена ошибка неправильного размера для повёрнутых штрих-кодов",
+          "Исправлено чтение файла данных",
+          "Исправлена генерация Codabar",
+          "Обновлены переводы"
+        ]
+      }
+    },
+    {
       "version": "2.4.0",
       "changes": {
         "def": [
