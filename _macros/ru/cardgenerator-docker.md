@@ -1,36 +1,39 @@
 ---
 layout: macros
 title: CardGenerator Docker
-version: 2.4.1
+version: 3.0.0
 app: X7–2017
-download: CardGeneratorDocker_v2.4.1.zip
+download: CardGeneratorDocker_v3.0.0.zip
 feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
 price: 1499
 sticky: true
 new: true
 permalink: /macros/cardgenerator/
-description: Новый инструмент для генерации и размещения большого количества штрих-кодов, qr-кодов и текста, на основе переменных данных, разработанный специально для актуальных версий CorelDRAW (X7–2017).
+description: Новый инструмент для генерации и размещения большого количества штрих-кодов, qr-кодов, изображений и текста, на основе переменных данных, разработанный специально для актуальных версий CorelDRAW (X7–2017).
 color: "#ffb505"
 ---
 
 ## Обзор
 
-Докер CardGenerator позволяет создавать и размещать большое количество штрих-кодов, qr-кодов и текста в CorelDRAW.
-В ближайших планах добавить поддержку изображений, а также расширить список штрих-кодов.
+Докер CardGenerator позволяет создавать и размещать большое количество штрих-кодов,
+qr-кодов, изображений и текста в CorelDRAW.
 
-<iframe width="570" height="360" src="https://www.youtube.com/embed/X-K_WqJ5GXI?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SvsG8t9gZEs?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Поддержка типов:
 
-* Штрих-коды:
+* Штрих-коды \*:
   * CODE128 (A/B/C), GS1-128
   * EAN13, EAN8
   * UPC
   * CODE39
   * Codabar
-* QR-коды
+* QR-коды \*
+* Изображения
 * Текст:
   * Фигурный
+
+\* в бесплатной версии штрих-коды и qr-коды создаются в ограниченном количестве.
 
 ### Совместимость
 

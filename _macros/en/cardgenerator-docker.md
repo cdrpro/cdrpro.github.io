@@ -1,36 +1,39 @@
 ---
 layout: macros_en
 title: CardGenerator Docker
-version: 2.4.1
+version: 3.0.0
 app: X7–2017
-download: CardGeneratorDocker_v2.4.1.zip
+download: CardGeneratorDocker_v3.0.0.zip
 feedback: https://goo.gl/forms/ZlYmVZg3Py62nPOC3
 price: 44.95
 sticky: true
 new: true
 permalink: /en/macros/cardgenerator/
-description: The new tool for generating and placement a large number of barcodes, qr codes and text, based on variables data, developed especially for actual CorelDRAW versions (X7–2017).
+description: The new tool for generating and placement a large number of barcodes, qr codes, images and text, based on variables data, developed especially for actual CorelDRAW versions (X7–2017).
 color: "#ffb505"
 ---
 
 ## Overview
 
-Docker CardGenerator allows you to create and place a large number of barcodes, qr codes and text in CorelDRAW.
-The nearest plans are to add support of images, as well as expand the list of barcode types.
+Docker CardGenerator allows you to create and place a large number of barcodes,
+qr codes, images and text in CorelDRAW.
 
-<iframe width="570" height="360" src="https://www.youtube.com/embed/X-K_WqJ5GXI?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SvsG8t9gZEs?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Supported types:
 
-* BarCodes:
+* BarCodes \*:
   * CODE128 (A/B/C), GS1-128
   * EAN13, EAN8
   * UPC
   * CODE39
   * Codabar
-* QR Codes
+* QR Codes \*
+* Images
 * Text:
   * Artistic
+
+\* BarCodes and QR Codes are limited in the free version.
 
 ### Compatibility
 

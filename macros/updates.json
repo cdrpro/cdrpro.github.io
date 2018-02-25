@@ -1,6 +1,19 @@
 {
   "CDG": [
     {
+      "version": "3.0.0",
+      "changes": {
+        "def": [
+          "Implemented image support",
+          "Fixed Data Generator"
+        ],
+        "1049": [
+          "Реализована поддержка изображений",
+          "Исправлен Data Generator"
+        ]
+      }
+    },
+    {
       "version": "2.4.1",
       "changes": {
         "def": [
