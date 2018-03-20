@@ -1,6 +1,17 @@
 {
   "CDG": [
     {
+      "version": "3.1.0",
+      "changes": {
+        "def": [
+          "Added support for EAN5, EAN2, ITF14 barcode types"
+        ],
+        "1049": [
+          "Добавлена поддержка EAN5, EAN2 и ITF14 штрих-кодов"
+        ]
+      }
+    },
+    {
       "version": "3.0.0",
       "changes": {
         "def": [

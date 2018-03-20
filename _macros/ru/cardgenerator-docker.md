@@ -1,9 +1,9 @@
 ---
 layout: macros
 title: CardGenerator Docker
-version: 3.0.0
+version: 3.1.0
 app: X7–2017
-download: CardGeneratorDocker_v3.0.0_up.zip
+download: CardGeneratorDocker_v3.1.0.zip
 feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
 price: 1499
 sticky: true
@@ -24,10 +24,11 @@ qr-кодов, изображений и текста в CorelDRAW.
 
 * Штрих-коды \*:
   * CODE128 (A/B/C), GS1-128
-  * EAN13, EAN8
+  * EAN13, EAN8, EAN5, EAN2
   * UPC
   * CODE39
   * Codabar
+  * ITF14
 * QR-коды \*
 * Изображения
 * Текст:
