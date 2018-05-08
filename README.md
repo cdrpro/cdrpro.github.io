@@ -1,6 +1,6 @@
 # CDRPRO.RU
 
-Исходный код проекта [cdrpro.ru](http://cdrpro.ru/).
+Исходный код проекта [cdrpro.ru](https://cdrpro.ru/).
 
 ```bash
 docker-compose up

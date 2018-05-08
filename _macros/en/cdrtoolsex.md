@@ -62,7 +62,7 @@ This function allows you to quickly create separate offset paths, both outside a
 ### Replace Text <span class="free">FREE</span>
 
 This function allows you to replace text in selected text objects using regular expressions.   
-See [the link](http://en.wikipedia.org/wiki/Regular_expression) to wikipedia for understand what it is.   
+See [the link](https://en.wikipedia.org/wiki/Regular_expression) to wikipedia for understand what it is.
 _Note: The option to select style for replace field is blocked because it's not working in CorelDRAW VBA for now._
 
 ![CdrToolsEx](/assets/macros/cdrtoolsex/Sample06.png)
