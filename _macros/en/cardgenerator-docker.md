@@ -2,14 +2,14 @@
 layout: macros_en
 title: CardGenerator Docker
 version: 3.1.0
-app: X7–2017
-download: CardGeneratorDocker_v3.1.0.zip
+app: X7–2018
+download: CardGeneratorDocker_v3.1.0_1.zip
 feedback: https://goo.gl/forms/ZlYmVZg3Py62nPOC3
 price: 44.95
 sticky: true
 new: true
 permalink: /en/macros/cardgenerator/
-description: The new tool for generating and placement a large number of barcodes, qr codes, images and text, based on variables data, developed especially for actual CorelDRAW versions (X7–2017).
+description: The new tool for generating and placement a large number of barcodes, qr codes, images and text, based on variables data, developed especially for actual CorelDRAW versions (X7–2018).
 color: "#ffb505"
 ---
 
@@ -42,7 +42,7 @@ The docker requires Windows, IE and CorelDRAW the following versions:
 
 * **Windows 7, 8.1 or 10**
 * **Internet Explorer 11**
-* **CorelDRAW X7, X8 or 2017**
+* **CorelDRAW X7, X8, 2017 or 2018**
 
 ### Localisation
 

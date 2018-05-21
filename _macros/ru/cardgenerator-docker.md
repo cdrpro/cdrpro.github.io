@@ -2,14 +2,14 @@
 layout: macros
 title: CardGenerator Docker
 version: 3.1.0
-app: X7–2017
-download: CardGeneratorDocker_v3.1.0.zip
+app: X7–2018
+download: CardGeneratorDocker_v3.1.0_1.zip
 feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
 price: 1499
 sticky: true
 new: true
 permalink: /macros/cardgenerator/
-description: Новый инструмент для генерации и размещения большого количества штрих-кодов, qr-кодов, изображений и текста, на основе переменных данных, разработанный специально для актуальных версий CorelDRAW (X7–2017).
+description: Новый инструмент для генерации и размещения большого количества штрих-кодов, qr-кодов, изображений и текста, на основе переменных данных, разработанный специально для актуальных версий CorelDRAW (X7–2018).
 color: "#ffb505"
 ---
 
@@ -42,7 +42,7 @@ qr-кодов, изображений и текста в CorelDRAW.
 
 * **Windows 7, 8.1 или 10**
 * **Internet Explorer 11**
-* **CorelDRAW X7, X8 или 2017**
+* **CorelDRAW X7, X8, 2017 или 2018**
 
 ### Язык интерфейса
 
