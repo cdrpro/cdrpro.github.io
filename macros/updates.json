@@ -1,6 +1,27 @@
 {
   "CDG": [
     {
+      "version": "4.0.0",
+      "changes": {
+        "def": [
+          "Barcode: Added ITF support",
+          "Barcode: Updated EAN8 to support non-flat mode (like EAN13)",
+          "Barcode: Fixed text margin",
+          "Interface: Added the new Select control",
+          "Interface: Added the ability to delete one variable",
+          "Other updates and improvements..."
+        ],
+        "1049": [
+          "Штрих-коды: Добавлена поддержка ITF",
+          "Штрих-коды: Обновлён EAN8 для поддержки non-flat вида (как EAN13)",
+          "Штрих-коды: Исправлен отступ текста",
+          "Интерфейс: Добавлен новый элемент управления Select",
+          "Интерфейс: Добавлена возможность удаления переменной",
+          "Другие обновления и улучшения..."
+        ]
+      }
+    },
+    {
       "version": "3.1.0",
       "changes": {
         "def": [
