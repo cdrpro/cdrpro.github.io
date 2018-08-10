@@ -1,6 +1,17 @@
 {
   "CDG": [
     {
+      "version": "4.0.1",
+      "changes": {
+        "def": [
+          "Updates and improvements..."
+        ],
+        "1049": [
+          "Обновления и улучшения..."
+        ]
+      }
+    },
+    {
       "version": "4.0.0",
       "changes": {
         "def": [

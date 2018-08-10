@@ -1,9 +1,9 @@
 ---
 layout: macros
 title: CardGenerator Docker
-version: 4.0.0
+version: 4.0.1
 app: X7–2018
-download: CardGeneratorDocker_v4.0.0.zip
+download: CardGeneratorDocker_v4.0.1.zip
 feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
 price: 1499
 sticky: true
