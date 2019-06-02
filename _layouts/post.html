@@ -7,13 +7,6 @@ layout: default
         <h1 class="post__title">{{ page.title }}</h1>
         <p class="post__meta">
             <span>{{ page.date | date: "%b %-d, %Y" }}</span>
-            <span class="post__tags">
-                {% for tag in page.tags %}
-                <a href="/tags/{{tag}}/" class="post__tag">
-                    #{{ site.data.tags[tag] }}
-                </a>
-                {% endfor %}
-            </span>
         </p>
     </header>
     <article class="post__content">

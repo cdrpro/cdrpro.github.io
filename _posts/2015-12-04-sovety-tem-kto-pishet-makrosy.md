@@ -2,7 +2,6 @@
 layout: post
 title:  "Советы тем, кто пишет макросы"
 date:   2015-12-04 00:00:00
-tags: [macros, dev]
 categories: blog
 lang: ru
 ---

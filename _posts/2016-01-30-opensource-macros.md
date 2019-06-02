@@ -2,7 +2,6 @@
 layout: post
 title:  "Макросы с открытым кодом"
 date:   2016-01-30 00:00:00
-tags: [macros, dev]
 categories: blog
 lang: ru
 ---

@@ -2,7 +2,6 @@
 layout: post
 title:  "Макросы (любой другой код) + GIT"
 date:   2015-02-03 00:00:00
-tags: [macros, dev]
 categories: blog
 lang: ru
 ---
