@@ -7,7 +7,6 @@ download: CardGeneratorDocker_v4.0.1.zip
 feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
 price: 1999
 sticky: true
-new: true
 permalink: /macros/cardgenerator/
 description: Новый инструмент для генерации и размещения большого количества штрих-кодов, qr-кодов, изображений и текста, на основе переменных данных, разработанный специально для актуальных версий CorelDRAW (X7–2018).
 color: "#ffb505"

@@ -7,7 +7,6 @@ download: CardGeneratorDocker_v4.0.1.zip
 feedback: https://goo.gl/forms/ZlYmVZg3Py62nPOC3
 price: 44.95
 sticky: true
-new: true
 permalink: /en/macros/cardgenerator/
 description: The new tool for generating and placement a large number of barcodes, qr codes, images and text, based on variables data, developed especially for actual CorelDRAW versions (X7–2018).
 color: "#ffb505"
