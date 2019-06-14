@@ -23,6 +23,7 @@ layout: default_en
                    href="/macros/download/{{ page.download }}">
                     Download
                 </a>
+                {% if page.price %}
                 <a class="btn"
                    target="_blank"
                    rel="noopener noreferrer"
@@ -32,6 +33,7 @@ layout: default_en
                    href="https://goo.gl/forms/QwN2V6peyo">
                     Buy (${{ page.price }})
                 </a>
+                {% endif %}
                 {% if page.feedback %}
                 <a class="btn feedback"
                    target="_blank"
