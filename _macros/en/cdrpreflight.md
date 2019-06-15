@@ -2,8 +2,9 @@
 layout: macros_en
 title: CdrPreflight
 version: 6.3
-app: X7–2018
-download: CdrPreflight_Installer_X7-2018.zip
+app: X7–2019
+download: CdrPreflight_Installer_X7-2019.zip
+source: https://github.com/cdrpro-macros/cdr-preflight
 sticky: true
 permalink: /en/macros/cdrpreflight/
 description: A unique pre-press solution right inside CorelDRAW, equally useful for individual designers and in print shops. With just a few clicks it diagnoses lots of typical CDR problems, making it easy for you to solve them, substantially saving your time and, thus, money.
@@ -26,6 +27,7 @@ CorelDRAW VBA must be installed.
 * CorelDRAW X8
 * CorelDRAW 2017
 * CorelDRAW 2018
+* CorelDRAW 2019
 
 ### Localisation
 

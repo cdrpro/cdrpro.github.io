@@ -20,6 +20,7 @@ layout: default_en
                    data-event="MacrosEN"
                    data-event-action="download"
                    data-event-label="{{ page.title }}"
+                   download
                    href="/macros/download/{{ page.download }}">
                     Download
                 </a>
@@ -32,6 +33,17 @@ layout: default_en
                    data-event-label="{{ page.title }}"
                    href="https://goo.gl/forms/QwN2V6peyo">
                     Buy (${{ page.price }})
+                </a>
+                {% endif %}
+                {% if page.source %}
+                <a class="btn"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   data-event="MacrosEN"
+                   data-event-action="source"
+                   data-event-label="{{ page.title }}"
+                   href="{{ page.source }}">
+                    Source code
                 </a>
                 {% endif %}
                 {% if page.feedback %}

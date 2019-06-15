@@ -28,3 +28,10 @@ cdrtools:
   description:
     ru: "Большая коллекция макросов для повседневной работы в CorelDRAW."
     en: "A large collection of simple macros for daily work in CorelDRAW."
+recentfiles:
+  name: "RecentFiles"
+  link: "https://github.com/cdrpro-macros/recent-files"
+  file: "RecentFiles_Installer_X7-2019.zip"
+  description:
+    ru: "RecentFiles для CorelDRAW."
+    en: "RecentFiles for CorelDRAW."

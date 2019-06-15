@@ -2,8 +2,9 @@
 layout: macros
 title: CdrPreflight
 version: 6.3
-app: X7–2018
-download: CdrPreflight_Installer_X7-2018.zip
+app: X7–2019
+download: CdrPreflight_Installer_X7-2019.zip
+source: https://github.com/cdrpro-macros/cdr-preflight
 sticky: true
 permalink: /macros/cdrpreflight/
 description: Уникальное решение допечатной подготовки в CorelDRAW, которое будет одинаково полезно как для отдельных дизайнеров, так и для целых полиграфических центров. Всего в несколько кликов CdrPreflight поможет вам найти и решить самые распространённые проблемы в CDR файлах, экономя время и деньги.
@@ -26,6 +27,7 @@ color: "#ff974f"
 * CorelDRAW X8
 * CorelDRAW 2017
 * CorelDRAW 2018
+* CorelDRAW 2019
 
 ### Язык интерфейса
 

@@ -20,6 +20,7 @@ layout: default
                    data-event="MacrosRU"
                    data-event-action="download"
                    data-event-label="{{ page.title }}"
+                   download
                    href="/macros/download/{{ page.download }}">
                     Скачать
                 </a>
@@ -32,6 +33,17 @@ layout: default
                    data-event-label="{{ page.title }}"
                    href="https://goo.gl/forms/pm0S1pt67V">
                     Купить ({{ page.price }} руб.)
+                </a>
+                {% endif %}
+                {% if page.source %}
+                <a class="btn"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   data-event="MacrosRU"
+                   data-event-action="source"
+                   data-event-label="{{ page.title }}"
+                   href="{{ page.source }}">
+                    Исходный код
                 </a>
                 {% endif %}
                 {% if page.feedback %}

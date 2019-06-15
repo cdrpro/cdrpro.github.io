@@ -39,13 +39,15 @@ permalink: /en/macros/
             <div class="simple-table__left-cell  open-source-macros__left-cell">
                 <a href="{{ macro.link }}" class="open-source-macros__title">{{ macro.name }}</a>
             </div>
-            <div class="simple-table__right-cell  open-source-macros__right-cell">{{ macro.description["en"] }}</div>
+            <div class="simple-table__right-cell  open-source-macros__right-cell">
+                {{ macro.description["en"] }}
+                {% if macro.file %}
+                <a target="_blank" download href="/macros/download/{{ macro.file }}">
+                    Download
+                </a>
+                {% endif %}
+            </div>
         </div>
         {% endfor %}
     </div>
-    <!-- NOTE -->
-    <p class="macros__more">
-        Other macros will be added later.<br/>
-        However, most of them can be downloaded from
-        <a href="/macros/download/macros.zip" target="_blank">this link</a>.</p>
 </div>
