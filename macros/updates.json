@@ -1,6 +1,19 @@
 {
   "CDG": [
     {
+      "version": "4.0.2",
+      "changes": {
+        "def": [
+          "Added automatic initialization of VBA",
+          "Updates and improvements..."
+        ],
+        "1049": [
+          "Добавлена автоматическая инициализация VBA",
+          "Обновления и улучшения..."
+        ]
+      }
+    },
+    {
       "version": "4.0.1",
       "changes": {
         "def": [

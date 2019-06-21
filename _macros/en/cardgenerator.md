@@ -1,9 +1,9 @@
 ---
 layout: macros_en
 title: CardGenerator Docker
-version: 4.0.1
-app: X7–2018
-download: CardGeneratorDocker_v4.0.1.zip
+version: 4.0.2
+app: X7–2019
+download: CardGenerator_Installer_X7-2019_v4.0.2.zip
 feedback: https://goo.gl/forms/ZlYmVZg3Py62nPOC3
 price: 44.95
 sticky: true
@@ -40,7 +40,7 @@ The docker requires Windows, IE and CorelDRAW the following versions:
 
 * **Windows 7, 8.1 or 10**
 * **Internet Explorer 11**
-* **CorelDRAW X7, X8, 2017 or 2018**
+* **CorelDRAW X7–2019**
 
 ### Localisation
 
