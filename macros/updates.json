@@ -1,6 +1,17 @@
 {
   "CDG": [
     {
+      "version": "4.1.0",
+      "changes": {
+        "def": [
+          "Added support of data files in UTF-8 encoding,"
+        ],
+        "1049": [
+          "Добавлена поддержка файлов данных в кодировке UTF-8"
+        ]
+      }
+    },
+    {
       "version": "4.0.2",
       "changes": {
         "def": [
