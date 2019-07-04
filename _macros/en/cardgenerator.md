@@ -34,6 +34,8 @@ qr codes, images and text in CorelDRAW.
 
 \* BarCodes and QR Codes are limited in the free version.
 
+Note: starts from version 4.1, a file with data (\*.txt) should be in UTF-8 encoding.
+
 ### Compatibility
 
 The docker requires Windows, IE and CorelDRAW the following versions:
