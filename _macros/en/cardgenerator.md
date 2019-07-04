@@ -1,9 +1,9 @@
 ---
 layout: macros_en
 title: CardGenerator Docker
-version: 4.1.0
+version: 4.2.0
 app: X7–2019
-download: CardGenerator Installer X7-2019_v4.1.0.zip
+download: CardGenerator Installer X7-2019_v4.2.0.zip
 feedback: https://goo.gl/forms/ZlYmVZg3Py62nPOC3
 price: 44.95
 sticky: true
@@ -31,6 +31,7 @@ qr codes, images and text in CorelDRAW.
 * Images
 * Text:
   * Artistic
+  * Paragraph
 
 \* BarCodes and QR Codes are limited in the free version.
 
