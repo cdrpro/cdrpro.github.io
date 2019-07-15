@@ -1,6 +1,17 @@
 {
   "CDG": [
     {
+      "version": "4.2.1",
+      "changes": {
+        "def": [
+          "Added support of vertical alignment for Paragraph Text"
+        ],
+        "1049": [
+          "Добавлена поддержка вертикального выравнивания для Paragraph Text"
+        ]
+      }
+    },
+    {
       "version": "4.2.0",
       "changes": {
         "def": [
