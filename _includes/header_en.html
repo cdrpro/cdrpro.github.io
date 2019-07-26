@@ -11,8 +11,6 @@
                 {% include hamburger.svg %}
             </a>
             <nav class="nav">
-                <a class="nav__item" {% if page.url != '/en/macros/' %}href="{{ site.baseurl }}/en/macros/"{% endif %}>Macros</a>
-                <a class="nav__item" {% if page.url != '/en/macros/updates/' %}href="{{ site.baseurl }}/en/macros/updates/"{% endif %}>Updates</a>
                 <a class="nav__item" {% if page.url != '/en/macros/question-answer/' %}href="{{ site.baseurl }}/en/macros/question-answer/"{% endif %}>Q&A</a>
                 <a class="nav__item" {% if page.url != '/en/macros/license/' %}href="{{ site.baseurl }}/en/macros/license/"{% endif %}>License</a>
                 <a class="nav__item  nav__item--lang" href="{{ site.baseurl }}/">RU</a>

@@ -2,11 +2,11 @@
 layout: macros_en
 title: CdrToolsEx
 version: 2.1
-app: X6–X7
-download: CdrToolsEx_2.1.zip
-price: 9.95
+app: X7-2019
+download: CdrToolsEx_Installer_X7-2019.zip
+source: https://github.com/cdrpro-macros/cdr-tools-ex
 permalink: /en/macros/cdrtools-ex/
-description: This docker collects several simple macros for your daily work in CorelDRAW. Several of the macros are free, others have a trial mode and will need to be purchased after the trial period has expired.
+description: This docker collects several simple macros for your daily work in CorelDRAW.
 color: "#a98fbf"
 ---
 
@@ -28,7 +28,7 @@ _Note: This function considers outline width._
 
 ![CdrToolsEx](/assets/macros/cdrtoolsex/Sample10.png)
 
-### Step & Repeat <span class="free">FREE</span>
+### Step & Repeat
 
 This section allows you to duplicate selected objects in both directions with a single click.   
 _Note: This function considers outline width._
@@ -46,7 +46,7 @@ _Note: This function considers outline width._
 
 ![CdrToolsEx](/assets/macros/cdrtoolsex/Sample09.png)
 
-### Make Crop Marks <span class="free">FREE</span>
+### Make Crop Marks
 
 This function allows you to quickly create crop marks.   
 _Note: This function considers outline width._
@@ -59,7 +59,7 @@ This function allows you to quickly create separate offset paths, both outside a
 
 ![CdrToolsEx](/assets/macros/cdrtoolsex/Sample05.png)
 
-### Replace Text <span class="free">FREE</span>
+### Replace Text
 
 This function allows you to replace text in selected text objects using regular expressions.   
 See [the link](https://en.wikipedia.org/wiki/Regular_expression) to wikipedia for understand what it is.
@@ -77,8 +77,11 @@ CorelDRAW VBA must be installed.
 
 ### Compatibility
 
-* CorelDRAW X6 (16.0.0.707 or above)
-* CorelDRAW X7 (17.0.0.491 or above)
+* CorelDRAW X7
+* CorelDRAW X8
+* CorelDRAW 2017
+* CorelDRAW 2018
+* CorelDRAW 2019
 
 ### Localisation
 
@@ -91,9 +94,3 @@ CorelDRAW VBA must be installed.
 * Click OK in the pop-up question (if you don't see it, open Macro Manager)
 
 After these actions the docker can be open from menu _Window > Dockers > CdrToolsEx_.
-
-_**NOTE:** This macro will only run on **one machine** (unless you buy multiple macros). If you buy the macro now, and want to run it on a brand new machine or different machine after receiving your first activation code, you must buy it again (please, look Q&A for more information). So, think carefully about which system you want to run it on, because each macro you receive will be locked to one system only. Your product activation key may take up to 24 hours to arrive, but is often much less._
-
-### Computer ID
-
-Click _Activation_ button in the docker.

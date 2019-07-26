@@ -125,39 +125,3 @@
         hanging-punctuation: first;
     }
 }
-
-.last-updates {
-
-    &__left-cell {
-        font-size: .85em;
-
-        @media #{$tablet} {
-            font-size: inherit;
-            text-align: right;
-            flex: 1 1 30%;
-            order: 1;
-        }
-    }
-
-    &__title {
-        margin: 0;
-        font-size: inherit;
-    }
-
-    .en &__title a:hover {
-        text-decoration: underline;
-        text-shadow: none;
-        background-image: none;
-    }
-
-    &__right-cell {
-
-        @media #{$tablet} {
-            flex: 1 1 70%;
-        }
-    }
-
-    &__more {
-        text-align: right;
-    }
-}

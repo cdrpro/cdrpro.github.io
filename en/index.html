@@ -2,49 +2,51 @@
 layout: default_en
 ---
 
-<div class="home">
-    <h2>Where should you start?</h2>
-    <p class="home__welcome-en">It is assumed that you are running CorelDRAW X4 - X7. For lower versions,
-        some macros will work, some won't. This is because macros use new features accessible through VBA,
-        C# or Vb.NET with each new version of CorelDRAW. Be sure to read the 'Terms and Conditions'.
-        And read the 'How to buy' if you want to buy one of the paid macros.</p>
+<div class="macros">
     <!-- MACROS -->
-    <h2>Best macros</h2>
-    {% assign macros = site.macros | where: 'layout', 'macros_en' | where: 'sticky', true %}
-    <div class="best-macros">
+    <h1>Macros & dockers for CorelDRAW</h1>
+    <div class="macros-list">
+        {% assign macros = site.macros | where: 'layout', 'macros_en' %}
         {% for macro in macros %}
-        <div class="best-macro">
-            <h3 class="best-macro__title">
+        <div class="macro-teaser  {% if macro.sticky == true %}macro-teaser--sticky{% endif %}">
+            <h2 class="macro-teaser__title">
                 <a href="{{ macro.url }}">{{ macro.title }}</a>
-            </h3>
-            <div class="best-macro__content">
+            </h2>
+            <div class="macro-teaser__meta">
+                {% if macro.new == true %}
+                <span class="macro-teaser__new">new</span>
+                {% endif %}
+                Version: {{ macro.version }} &nbsp; Compatibility: {{ macro.app }}
+            </div>
+            <p class="macro-teaser__content">
                 {{ macro.description | strip_html }}
-            </div>
+            </p>
         </div>
         {% endfor %}
     </div>
-    <div class="best-macros__more">
-        <a href="/en/macros/" class="btn  btn__more">All macros</a>
-    </div>
-    <!-- UPDATES -->
-    <h2>Last updates</h2>
-    {% assign updates_count = site.updates | size %}
-    {% if updates_count != 0 %}
-    <div class="simple-table  last-updates">
-        {% assign updates = site.updates | sort: 'date' | reverse %}
-        {% for update in updates limit:6 %}
+    <hr>
+    <!-- OPEN SOURCE -->
+    <h2>Open Source</h2>
+    <p>Free macros with source code that you can modify. <br>
+        More sources are available by following link:
+        <a href="https://github.com/cdrpro-macros">github.com/cdrpro-macros</a>
+    </p>
+    <div class="simple-table  open-source-macros">
+        {% for opensource_macro in site.data.opensource_macros %}
+        {% assign macro = opensource_macro[1] %}
         <div class="simple-table__row">
-            <div class="simple-table__left-cell  last-updates__left-cell">
-                {{ update.date | date: "%b %-d, %Y" }}
+            <div class="simple-table__left-cell  open-source-macros__left-cell">
+                <a href="{{ macro.link }}" class="open-source-macros__title">{{ macro.name }}</a>
             </div>
-            <div class="simple-table__right-cell  last-updates__right-cell">
-                <h3 class="last-updates__title">{{ update.title }}</h3>
+            <div class="simple-table__right-cell  open-source-macros__right-cell">
+                {{ macro.description["en"] }}
+                {% if macro.file %}
+                <a target="_blank" download href="/macros/download/{{ macro.file }}">
+                    Download
+                </a>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
     </div>
-    <div class="last-updates__more">
-        <a href="/en/macros/updates/" class="btn  btn__more">All updates</a>
-    </div>
-    {% endif %}
 </div>
