@@ -1,6 +1,21 @@
 {
   "CDG": [
     {
+      "version": "4.3.0",
+      "changes": {
+        "def": [
+          "Fixed UI background color for CorelDRAW 2019",
+          "Added warning about making a sample before print large amount of data",
+          "Added notes about some barcode formats"
+        ],
+        "1049": [
+          "Исправлен цвет фона пользовательского интерфейса для CorelDRAW 2019",
+          "Добавлено предупреждение о создании образца, перед печатью большого объема данных",
+          "Добавлены заметки о некоторых форматах штрих-кодов"
+        ]
+      }
+    },
+    {
       "version": "4.2.1",
       "changes": {
         "def": [
