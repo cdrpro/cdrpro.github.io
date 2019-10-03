@@ -30,7 +30,6 @@ layout: home
 {% if posts_count != 0 %}
 <div class="home__new-posts">
     <div class="wrapper">
-        <h2>Новые записи</h2>
         <div class="home__post-list">
         {% for post in posts limit:4 %}
             <div class="home__post  {% if post.sticky %}home__post-sticky{% endif %}">
