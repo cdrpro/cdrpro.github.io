@@ -2,8 +2,8 @@
 layout: macros
 title: CdrPreflight
 version: 6.3
-app: X7–2019
-download: CdrPreflight_Installer_X7-2019.zip
+app: X7–2020
+download: CdrPreflight Installer X7-2020.zip
 source: https://github.com/cdrpro-macros/cdr-preflight
 sticky: true
 permalink: /macros/cdrpreflight/
@@ -28,6 +28,7 @@ color: "#ff974f"
 * CorelDRAW 2017
 * CorelDRAW 2018
 * CorelDRAW 2019
+* CorelDRAW 2020
 
 ### Язык интерфейса
 

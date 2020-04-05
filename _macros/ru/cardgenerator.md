@@ -2,8 +2,8 @@
 layout: macros
 title: CardGenerator Docker
 version: 4.3.0
-app: X7–2019
-download: CardGenerator_Installer_X7-2019_v4.3.0.zip
+app: X7–2020
+download: CardGenerator Installer X7-2020_v4.3.0.zip
 feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
 price: 1999
 sticky: true
@@ -43,7 +43,7 @@ _Примечание: начиная с версии 4.1, файл данных
 
 * **Windows 7, 8.1 или 10**
 * **Internet Explorer 11**
-* **CorelDRAW X7–2019**
+* **CorelDRAW X7–2020**
 
 ### Язык интерфейса
 
