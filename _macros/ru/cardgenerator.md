@@ -2,10 +2,10 @@
 layout: macros
 title: CardGenerator Docker
 version: 4.3.0
-app: X7–2020
-download: CardGenerator Installer X7-2020_v4.3.0.zip
+app: X7–2021
+download: CardGenerator Installer X7-2021_v4.3.0.zip
 feedback: https://goo.gl/forms/2Oqk8KUbClkMZqgz1
-price: 1999
+price: 2599
 sticky: true
 permalink: /macros/cardgenerator/
 description: Новый инструмент для создания и размещения большого количества штрих-кодов, qr-кодов, изображений и текста, на основе переменных данных, разработанный специально для актуальных версий CorelDRAW.
@@ -43,7 +43,7 @@ _Примечание: начиная с версии 4.1, файл данных
 
 * **Windows 7, 8.1 или 10**
 * **Internet Explorer 11**
-* **CorelDRAW X7–2020**
+* **CorelDRAW X7–2021**
 
 ### Язык интерфейса
 
