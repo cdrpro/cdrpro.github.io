@@ -51,6 +51,11 @@
         }
     }
 
+    &__disabled {
+        color: gray !important;
+        pointer-events: none;
+    }
+
     .en & {
         color: #fff;
         background: $brand-en;

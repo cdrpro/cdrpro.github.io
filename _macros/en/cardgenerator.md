@@ -6,6 +6,7 @@ app: X7–2021
 download: CardGenerator Installer X7-2021_v4.3.0.zip
 feedback: https://goo.gl/forms/ZlYmVZg3Py62nPOC3
 price: 44.95
+unavailable: true
 sticky: true
 permalink: /en/macros/cardgenerator/
 description: The new tool for generating and placement a large number of barcodes, qr codes, images and text, based on variables data, developed especially for actual CorelDRAW versions.

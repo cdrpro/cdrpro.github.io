@@ -15,16 +15,20 @@ layout: default_en
                 {{ page.description }}
             </div>
             <div class="macro__header-actions">
-                <a class="btn"
+                <a class="btn{% if page.unavailable == true %} btn__disabled{% endif %}"
                    target="_blank"
                    data-event="MacrosEN"
                    data-event-action="download"
                    data-event-label="{{ page.title }}"
                    download
                    href="/macros/download/{{ page.download }}">
+                    {% if page.unavailable == true %}
+                    Unavailable
+                    {% else %}
                     Download
+                    {% endif %}
                 </a>
-                {% if page.price %}
+                {% if page.price and page.unavailable != true %}
                 <a class="btn"
                    target="_blank"
                    rel="noopener noreferrer"
@@ -46,7 +50,7 @@ layout: default_en
                     Source code
                 </a>
                 {% endif %}
-                {% if page.feedback %}
+                {% if page.feedback and page.unavailable != true %}
                 <a class="btn feedback"
                    target="_blank"
                    title="Feedback"
