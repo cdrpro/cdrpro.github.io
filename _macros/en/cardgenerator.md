@@ -4,7 +4,7 @@ title: CardGenerator Docker
 version: 4.3.0
 app: X7–2021
 download: CardGenerator Installer X7-2021_v4.3.0.zip
-feedback: https://goo.gl/forms/ZlYmVZg3Py62nPOC3
+feedback: https://forms.gle/nRG6fzvmNyDw4hpL7
 price: 44.95
 unavailable: true
 sticky: true
