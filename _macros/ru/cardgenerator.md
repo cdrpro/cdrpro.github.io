@@ -17,8 +17,6 @@ color: "#ffb505"
 Докер CardGenerator позволяет создавать и размещать большое количество штрих-кодов,
 qr-кодов, изображений и текста в CorelDRAW.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SvsG8t9gZEs?rel=0" frameborder="0" allowfullscreen></iframe>
-
 ### Поддержка типов:
 
 * Штрих-коды \*:

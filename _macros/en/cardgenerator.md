@@ -18,8 +18,6 @@ color: "#ffb505"
 Docker CardGenerator allows you to create and place a large number of barcodes,
 qr codes, images and text in CorelDRAW.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SvsG8t9gZEs?rel=0" frameborder="0" allowfullscreen></iframe>
-
 ### Supported types:
 
 * BarCodes \*:
