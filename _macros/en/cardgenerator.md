@@ -3,7 +3,7 @@ layout: macros_en
 title: CardGenerator Docker
 version: 4.3.0
 app: X7–2022
-download: CardGenerator Installer X7-2022_v4.3.0.zip
+download: CardGenerator_Installer_X7-2022.zip
 feedback: https://forms.gle/nRG6fzvmNyDw4hpL7
 price: 44.95
 unavailable: true
