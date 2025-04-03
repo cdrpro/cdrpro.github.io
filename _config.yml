@@ -6,7 +6,6 @@ description:
   en: "Macros & tools for CorelDRAW. Free & open source macros."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://cdrpro.ru" # the base hostname & protocol for your site
-twitter_username: SanichKotikov
 github_username: cdrpro-macros
 github_page_url: cdrpro.github.io
 
